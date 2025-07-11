@@ -1,0 +1,141 @@
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+.nav-title{
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.text-primary{
+    color: orangered;
+}
+
+.btn-primary{
+    background-color: orangered;
+    font-size: 20px;
+    font-weight: bold;
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 20px;
+}
+
+nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+
+.banner-greetings{
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.banner-title{
+    font-weight: bold;
+    font-size: 55px;
+}
+
+.banner-image{
+    width: 100%;
+}
+
+.description{
+    background-color: blanchedalmond;
+    margin: 20px 200px;
+}
+
+.description-text{
+    padding: 20px 50px;
+    font-size: larger;
+    text-align: center;
+}
+
+.contact-pages{
+    color: #fff;
+}
+
+.fb{
+    margin: 0 2.5% 20px 220px;
+    padding: 10px 20px;
+    font-size: large;
+    border-radius: 5px;
+    border-color: orangered;
+    cursor: pointer;
+}
+.insta{
+    margin: 0 2.5% 20px 2.5%;
+    padding: 10px 20px;
+    font-size: large;
+    border-radius: 5px;
+    border-color: orangered;
+    cursor: pointer;
+}
+.x{
+    margin: 0 2.5% 20px 2.5%;
+    padding: 10px 20px;
+    font-size: large;
+    border-radius: 5px;
+    border-color: orangered;
+    cursor: pointer;
+}
+.ln{
+    margin: 0 10px 20px 2.5%;
+    padding: 10px 20px;
+    font-size: large;
+    border-radius: 5px;
+    border-color: orangered;
+    cursor: pointer;
+}
+
+.card-parent{
+    background-color: aquamarine;
+    margin: 0 200px;
+    padding: 20px;
+    justify-content: center;
+    display: flex;
+    gap: 40px;
+}
+
+.cards{
+    height: 150px;
+    width: 100px;
+    padding: 20px;
+    text-align: center;
+    background-color: orangered;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px black;
+}
+
+.card-text{
+    color: white;
+}
